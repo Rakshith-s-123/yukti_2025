@@ -1,0 +1,107 @@
+/* Login.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f2f5;
+  /* background-image: url("../front.avif"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.formarea {
+  background: linear-gradient(135deg, #141212 0%, #141212 100%);
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  color: #fff;
+  opacity: 0.8; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+  filter: alpha(opacity=50); /* IE lt 8 */
+  -ms-filter: "alpha(opacity=50)"; /* IE 8 */
+  -khtml-opacity: 0.5; /* Safari 1.x */
+  -moz-opacity: 0.5; /* FF lt 1.5, Netscape */
+}
+
+.formarea h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.inputarea {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.labels {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 9000;
+  color: white;
+}
+
+.inputs {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.inputs:focus {
+  outline: none;
+  border: 2px solid #fff;
+}
+
+.btnarea {
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #fff;
+  color: #ff7e5f;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #fc2525;
+  color: #fff;
+}
+
+.btnarea p {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.btnarea p a {
+  color: #ffd700;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.btnarea p a:hover {
+  color: #fff;
+}

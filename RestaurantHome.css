@@ -1,0 +1,20 @@
+.restaurant-dashboard {
+  margin-bottom: -1rem;
+  justify-content: center;
+  display: flex;
+}
+
+.sidebar {
+  width: 25rem;
+  background-color: #f5f3f5;
+  padding: 1rem;
+}
+
+.sidebar-tab {
+  margin-bottom: 1rem;
+}
+
+.main-content {
+  flex: 1;
+  padding: 3rem;
+}

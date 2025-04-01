@@ -1,0 +1,67 @@
+/* Navbar.css */
+* {
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #36494e; /* Transparent background */
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #d3f6db;
+}
+
+.logo img {
+  height: 80px;
+  margin-right: 10px; /* Adjust spacing */
+}
+
+.logo h2 {
+  font-size: 24px; /* Adjust font size */
+  margin: 0; /* Remove default margin */
+}
+
+.navbar .nav-links {
+  display: flex;
+}
+
+.nav-links .navbutton {
+  font-size: 18px; /* Adjust font size */
+  border: 2px solid rgb(239, 177, 43);
+  text-decoration: none;
+  border-radius: 50px;
+  margin-left: 10px; /* Adjust spacing between buttons */
+  padding: 10px 20px; /* Adjust button padding */
+  background-color: #06060644;
+  color: #f6fef8; /* Text color */
+  transition: background-color 0.3s ease;
+}
+
+.nav-links .navbutton:hover {
+  background-color: #eb9f3b; /* Hover background color */
+  color: #f3eff4; /* Hover text color */
+}
